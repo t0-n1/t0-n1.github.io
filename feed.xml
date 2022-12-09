@@ -1,0 +1,61 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/</id>
+  <title>Attack mode</title>
+  <subtitle>Offensive Security</subtitle>
+  <updated>2022-12-09T03:48:56-06:00</updated>
+  <author>
+    <name>t0-n1</name>
+    <uri>http://0.0.0.0:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://0.0.0.0:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
+  <rights> © 2022 t0-n1 </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>KrbRelay with ADCS Web Enrollment</title>
+    <link href="http://0.0.0.0:4000/posts/krbrelay-with-adcs-web-enrollment/" rel="alternate" type="text/html" title="KrbRelay with ADCS Web Enrollment" />
+    <published>2022-12-08T00:00:00-06:00</published>
+  
+    <updated>2022-12-08T00:00:00-06:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/krbrelay-with-adcs-web-enrollment/</id>
+    <content src="http://0.0.0.0:4000/posts/krbrelay-with-adcs-web-enrollment/" />
+    <author>
+      <name>t0-n1</name>
+    </author>
+
+  
+    
+    <category term="development" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+
+KrbRelayUp is a tool that exploits a no-fix local privilege escalation (from domain user to SYSTEM) issue in Windows domain environments by relaying Kerberos authentication over some network protocols (LDAP or HTTP). More information about the issue can be found at Windows Exploitation Tricks: Relaying DCOM Authentication.
+
+KrbRelayUp has three exploitation methods (RBCD, Shadow c...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
